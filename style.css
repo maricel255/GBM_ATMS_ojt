@@ -1,17 +1,16 @@
 /* HEADER */
 .header {
-  width: calc(100% + 60px);   /* cancel body padding */
-  margin-left: -30px;         /* pull left */
-  margin-top: -30px;          /* pull up */
+  width: calc(100% + 60px);
+  margin-left: -30px;
+  margin-top: -30px;
   height: 110px;
-  background: white;
+  background: #8B0000;   /* deep business red */
   display: flex;
   justify-content: flex-start;
   align-items: center;
   padding: 0 40px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
-
 .logo {
   height: 90px;   /* adjust if needed */
   width: auto;
