@@ -1,3 +1,17 @@
+/* HEADER */
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px 30px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  height: 60px;   /* adjust size if needed */
+  width: auto;
+}
+
 body {
   margin: 0;
   padding: 30px;
