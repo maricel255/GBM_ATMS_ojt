@@ -92,6 +92,8 @@ body {
   align-items: center;
   gap: 10px;
   font-weight: bold;
+
+  margin-left: 20px; /* moves it slightly right */
 }
 .meal-btn {
   padding: 8px 18px;
