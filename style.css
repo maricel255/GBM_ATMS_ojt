@@ -4,13 +4,16 @@
   margin-left: -30px;
   margin-top: -30px;
   height: 110px;
-  background: #6b0900;   /* deep business red */
+  background: #6B0900;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   padding: 0 40px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+
+  margin-bottom: 40px;   /* 👈 ADD THIS */
 }
+
 .logo {
   height: 150px;   /* adjust if needed */
   width: auto;
