@@ -10,9 +10,11 @@
 
 
 .logo {
-  height: 60px;   /* adjust size if needed */
+  height: 80px;
   width: auto;
+  display: block;
 }
+
 
 body {
   margin: 0;
