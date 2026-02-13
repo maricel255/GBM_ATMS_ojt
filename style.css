@@ -49,17 +49,13 @@ body {
   border-radius: 15px;
   padding: 20px;
   display: flex;
-  justify-content: center;
-  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.btn {
-  padding: 12px 25px;
-  border-radius: 25px;
-  border: 1px solid #aaa;
-  background: #f2f2f2;
-  cursor: pointer;
-  font-weight: bold;
+/* Make buttons grouped */
+.top-bar .btn {
+  margin-right: 10px;
 }
 
 .btn:hover {
@@ -86,18 +82,17 @@ body {
 }
 
 .watch-circle {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
-  background: #dcdcdc;
+  background: #cfcfcf;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
   font-weight: bold;
 }
-
 .meal-btn {
   padding: 8px 18px;
   border-radius: 20px;
