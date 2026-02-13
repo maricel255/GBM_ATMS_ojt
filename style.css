@@ -101,7 +101,10 @@ body {
   align-items: center;
   gap: 15px;
   font-weight: bold;
+
+  margin-left: 20px; /* Adjust value as needed */
 }
+
 
 .meal-btn {
   padding: 8px 18px;
